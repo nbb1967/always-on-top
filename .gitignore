@@ -1,0 +1,22 @@
+# --- AutoIt specifics ---
+# Compiled scripts (no need to store in Git, can be rebuilt from source)
+*.exe
+*.a3x
+
+# SciTE editor temporary files and build logs
+*.au3.bak
+*.au3.tmp
+*.log
+SciTE.session
+
+# Tidy and Au3Check reports
+*_Tidy.au3
+Au3Check.log
+
+# --- Windows system files ---
+# Folder settings and thumbnail caches
+Thumbs.db
+desktop.ini
+
+# Office temporary files
+~$*

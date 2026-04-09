@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="48" viewBox="0 0 450 48">
+  <style>
+    .t { fill: #24292f; }
+    @media (prefers-color-scheme: dark) {
+      .t { fill: #f0f6fc; }
+    }
+  </style>
+  <text x="0" y="35" font-family="Segoe UI, Helvetica, sans-serif" font-size="32" font-weight="600">
+    <tspan class="t">PowerToys AlwaysOnTop </tspan>
+    <tspan fill="#39BDF0">Lite</tspan>
+  </text>
+</svg>
