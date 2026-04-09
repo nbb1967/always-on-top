@@ -17,24 +17,24 @@
 #AutoIt3Wrapper_Res_File_Add=cur\picker.cur, 1, 101
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 
+#include <Array.au3>
 #include <ButtonConstants.au3>
-#include <GUIConstantsEx.au3>
 #include <ComboConstants.au3>
 #include <EditConstants.au3>
+#include <GDIPlus.au3>
+#include <GuiComboBox.au3>
+#include <GUIConstantsEx.au3>
+#include <GuiEdit.au3>
+#include <GuiMenu.au3>
+#include <Misc.au3>
+#include <MsgBoxConstants.au3>
+#include <ScrollBarConstants.au3>
 #include <SliderConstants.au3>
 #include <StaticConstants.au3>
-#include <WindowsConstants.au3>
-#include <MsgBoxConstants.au3>
-#include <WinAPI.au3>
-#include <Misc.au3>
-#include <GuiComboBox.au3>
-#include <ScrollBarConstants.au3>
-#include <GDIPlus.au3>
-#include <include\JSON.au3> ; @AspirinJunkie(https : / / github.com / Sylvan86 / autoit - json - udf)
 #include <TrayConstants.au3>
-#include <Array.au3>
-#include <GuiMenu.au3>
-#include <GuiEdit.au3>
+#include <WinAPI.au3>
+#include <WindowsConstants.au3>
+#include <include\JSON.au3> ; @AspirinJunkie (https://github.com/Sylvan86/autoit-json-udf)
 
 ; Prevents duplicate instances by executable name.
 _Singleton("PowerToys.AlwaysOnTop.Lite.exe")
